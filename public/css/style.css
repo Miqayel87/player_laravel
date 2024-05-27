@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.video_container{
+    position: relative;
+    padding: 50px;
+}
+
+video{
+    object-fit: cover;
+    width: calc(100% + 2px);
+    max-height: 700px;
+    border-radius: 44px;
+}
+
+button{
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgb(232,232,237);
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+   
+}
+
+button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
